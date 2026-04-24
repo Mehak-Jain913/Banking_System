@@ -1,30 +1,7 @@
-//package com.mehak.banking_system.entity;
-//
-//import jakarta.persistence.*;
-//import lombok.AllArgsConstructor;
-//import lombok.Data;
-//import lombok.NoArgsConstructor;
-//
-//@Data
-//@AllArgsConstructor
-//@NoArgsConstructor
-//@Entity
-//@Table(name = "accounts")
-//public class Account {
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    private Long id;
-//
-//    @Column(name="account_number", unique = true, nullable = false)
-//    private String accountHolderName;
-//    private Double balance;
-//}
-
 package com.mehak.banking_system.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
-
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 

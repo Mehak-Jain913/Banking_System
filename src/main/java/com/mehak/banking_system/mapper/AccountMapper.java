@@ -1,34 +1,3 @@
-//package com.mehak.banking_system.mapper;
-//
-//import com.mehak.banking_system.dto.AccountDto;
-//import com.mehak.banking_system.entity.Account;
-//
-//public class AccountMapper {
-//    public static Account mapToAccount(AccountDto accountDto){
-//        if(accountDto == null){
-//            return null;
-//        }
-//        Account account = new Account(
-//                accountDto.getId(),
-//                accountDto.getAccountHolderName(),
-//                accountDto.getBalance()
-//        );
-//        return account;
-//    }
-//
-//    public static AccountDto mapToAccountDto(Account account){
-//        if(account == null){
-//            return null;
-//        }
-//        AccountDto accountDto = new AccountDto(
-//                account.getId(),
-//                account.getAccountHolderName(),
-//                account.getBalance()
-//        );
-//        return accountDto;
-//    }
-//}
-
 package com.mehak.banking_system.mapper;
 
 import com.mehak.banking_system.dto.AccountDto;
